@@ -1,0 +1,149 @@
+body {
+	padding-top: 50px;
+
+
+   
+
+    font-family: 'Oswald', sans-serif;
+
+
+
+
+}
+
+
+
+
+.jumbotron{
+	color: white;
+	text-align: center;
+	background-image: url('../herowash.jpeg');
+	background-size: cover;
+	background-position: center;
+}
+
+
+.jumbotron h1 {
+	font-weight: 500;
+	font-size: 100px
+}
+
+.jumbotron p {
+	font-weight: 300;
+	font-size: 30px;
+}
+
+div.jumbotron {
+	padding-top: 250px;
+	padding-bottom: 325px;
+}
+.jumbotron a {
+	color: white;
+}
+
+nav img{
+	padding: 20px 50px;
+}
+
+#about {
+	padding-top: 75px;
+	padding-bottom: 200px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+#about hr {
+	border-color: blue;
+	width: 160px;
+	margin-top: 20px;
+}
+
+#about .img {
+    position: relative;
+    float: left;
+    width:  100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+
+#pricing {
+	padding-top: 100px;
+	background: #dddddd;
+	margin-bottom: 0px;
+	text-align: center;
+	padding-bottom: 120px;
+}
+
+#pricing p {
+	font-size: 20px;
+}
+
+#pricing h3 {
+	font-size: 30px;
+}
+
+#pricing hr {
+	border-color: blue;
+	width: 160px;
+	margin-top: 20px;
+}
+
+#contact {
+	background-color: #000a6d;
+	color: white;
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 200px;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 0px;
+
+}
+
+#contact hr {
+	border-color: white;
+	width: 160px;
+	margin-top: 20px;
+
+}
+
+#contact h2 {
+	font-size: 40px;
+}
+
+#contact p {
+	font-size: 30px;
+}
+
+
+@media (max-width: 767px){
+	.jumbotron img {
+		width: 90%;
+	}
+	.jumbotron p {
+		font-size: 16px;
+		padding: 0;
+	}
+	footer img {
+		width: 80%;
+	}
+
+}
+
+
+@media (max-width: 992px) {
+	.jumbotron img {
+		width: 95%;
+	}
+}
+
+@media (max-width: 1199px) {
+	.jumbotron img {
+		width: 95%;
+	}
+	}
+iframe {
+	padding-top: 50px;
+}
